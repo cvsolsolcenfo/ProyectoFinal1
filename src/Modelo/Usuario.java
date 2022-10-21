@@ -1,6 +1,6 @@
 package Modelo;
 
-public class Usuarios {
+public class Usuario {
 
         private String nombre;
         private String apellido;
@@ -10,7 +10,7 @@ public class Usuarios {
         private String foto;
 
 
-        public Usuarios(String nombre, String apellido, int edad, String correo, String password, String foto) {
+        public Usuario(String nombre, String apellido, int edad, String correo, String password, String foto) {
                 this.nombre = nombre;
                 this.apellido = apellido;
                 this.edad = edad;
