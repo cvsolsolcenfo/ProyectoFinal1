@@ -21,7 +21,7 @@ public class Main {
 //}
     public static Connection obtenerConexion (){
         String url =";"
-                + "database=NOMBRE;"
+                + "database=Programa;"
                 +"user=sa;"
                 +"password=1234;";
 
