@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Main {
-//    public static void main (String []args){
+     public static void main (String []args) {
 //        boolean ok;
 //
 //        ok = programa.addUsuario(usuario);
@@ -18,7 +18,7 @@ public class Main {
 //
 //    }
 //
-//}
+     }
     public static Connection obtenerConexion (){
         String url =";"
                 + "database=Programa;"
