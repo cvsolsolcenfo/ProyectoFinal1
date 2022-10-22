@@ -1,29 +1,21 @@
 package Controlador;
 
+import Vista.Login;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Main {
      public static void main (String []args) {
-//        boolean ok;
-//
-//        ok = programa.addUsuario(usuario);
-//        if (ok == true) {
-//            menu.mostrarTexto("Usuario en espera de ser ingresado");
-//        } else {
-//            break;
-//        }
-//        break;
-//
-//    }
-//
+         Login iniciarSesion = new Login();
+
      }
     public static Connection obtenerConexion (){
-        String url =";"
+        String url ="jdbc:mysql://localhost:3306;"
                 + "database=Programa;"
                 +"user=sa;"
-                +"password=1234;";
+                +"password=ProyectoFinal1;";
 
         try {
             Connection con = DriverManager.getConnection(url);
